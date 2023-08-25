@@ -1,0 +1,215 @@
+.body {
+    background-color: #ffffff;
+}
+
+
+.nav-link.active {
+    color: black;
+}
+
+.nav-link.active:hover {
+    text-decoration: underline;
+    transition: 0.6s;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    transition: 0.3;
+}
+
+#main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.ph {
+
+    border: 1px solid #C0C1C2;
+    border-radius: 22px;
+    display: flex;
+    font-size: inherit;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, sans-serif;
+    height: 44px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    max-width: 90%;
+    max-height: 100%;
+    justify-content: center;
+    margin-left: 5vh;
+    background-color: #ffffff;
+    appearance: auto;
+    width: 561px;
+    padding: 0 16px 0 40px;
+
+}
+
+
+.ph .input {
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+.submit {
+    font-size: inherit;
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+
+}
+
+.inbt {
+    background-color: #f8f9fa;
+    color: black;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+    align-items: center;
+    height: 36px;
+    min-width: 54px;
+    margin: 0px 4px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.inbt:hover {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #logo {
+        margin-top: 5vh;
+    }
+
+    .ph {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ph {
+        font-size: 12px;
+
+    }
+
+    .submit {
+        margin-left: 10vh;
+        display: block;
+    }
+}
+
+
+
+#splogo {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2vh;
+
+}
+
+#tispan {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 0px 20px 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #d93025;
+
+}
+
+#title {
+
+    border-bottom: #eeeff0 solid;
+}
+
+#adsearchpage {
+    align-items: baseline;
+    align-self: start;
+}
+
+.inputOne .TextDesHeading {
+    font-size: 16px;
+    min-width: 167px;
+    width: 16%;
+    font-weight: 500;
+    color: #333;
+
+}
+
+.inputOne {
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.inputOne .textDes {
+    width: 200px;
+    font-size: 13px;
+}
+
+.inputOne .inp-feed {
+    min-width: 167px;
+    width: 50%;
+}
+
+.inputOne .inp-feed input {
+    border-radius: 1px;
+    border: 1px solid #C0C1C2;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+}
+
+.inputOne .ToDO {
+    width: 30%;
+    min-width: 16px;
+    color: #555;
+    white-space: pre;
+}
+
+.inb-inp {
+    border-radius: 1px;
+    border: 1px solid #C0C1C2;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    margin: 0px 30px 0px 25px;
+    width: 222px;
+}
+
+.inputOne .submit {
+    justify-content: flex-end;
+    display: flex;
+    width: 50%;
+
+}
+
+.inputOne .inbt {
+    background-color: #4D90FE;
+    color: #f8f9fa;
+    margin-bottom: 2vh;
+    transition: all 0.3s;
+}
+
+
+.inputOne .inbt:hover {
+    border: solid black 1px;
+}
